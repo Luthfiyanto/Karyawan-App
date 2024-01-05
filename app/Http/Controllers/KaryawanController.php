@@ -31,7 +31,7 @@ class KaryawanController extends Controller
 
     public function show($nomor_induk)
     {
-        $karyawan = Karyawan::find($nomor_induk);
+        $karyawan = Karyawan::where('nomor_induk', $nomor_induk)->get();
         return view('karyawan.show',compact('karyawan'));
     }
 

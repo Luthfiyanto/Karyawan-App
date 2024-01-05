@@ -32,8 +32,7 @@
           </div>
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex flex-shrink-0 items-center">
-              <img class="block h-8 w-auto lg:hidden" src="../image/logo sibook with text white.png" alt="Your Company" />
-              <img class="hidden h-8 w-auto lg:block" src="../image/logo sibook with text white.png" alt="Your Company" />
+              <h1 class="font-bold text-white text-lg">KaryawanApp</h1>
             </div>
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-4">

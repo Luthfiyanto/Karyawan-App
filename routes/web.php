@@ -18,6 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('karyawan',KaryawanController::class)->parameters([
-    'karyawan' => 'nomor_induk',
-]);
+Route::resource('karyawan',KaryawanController::class);

@@ -13,7 +13,7 @@
         </div>
     @endif
 
-    <table class="table">
+    <table class="table border shadow-sm p-10 m-3">
         <thead>
             <tr>
                 <th>Nomor Induk</th>
@@ -26,7 +26,7 @@
         </thead>
         <tbody>
             @forelse($karyawanList as $karyawan)
-                <tr>
+                <tr class="p-4">
                     <td>{{ $karyawan->nomor_induk }}</td>
                     <td>{{ $karyawan->nama }}</td>
                     <td>{{ $karyawan->alamat }}</td>
